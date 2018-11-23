@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: gnifle
+google_analytics: gnifle
+title: Pondering
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Pondering
+
+description: Jotting down some scribbles while assuming the life of a programmer
+author:
+  name: Daniel Olsen
+  email: blog@gnifle.com
+  github: gnifle
+  twitter: gnifle
+  linkedin: gnifle
+  bio: I figured, I might as well jot some things down while programming...
+  email_md5: cd94862bf36558833759560f350a2667
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
