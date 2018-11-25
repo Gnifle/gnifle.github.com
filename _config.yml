@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Pondering
+      title: Pondering | A personal development blog
 
 description: Jotting down some scribbles while assuming the life of a programmer
 author:
@@ -23,12 +23,14 @@ author:
   github: gnifle
   twitter: gnifle
   linkedin: gnifle
-  bio: I figured, I might as well jot some things down while programming...
+  bio: A little place for a young developer to jot his learnings down
   email_md5: cd94862bf36558833759560f350a2667
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+
+permalink: /:categories/:title:output_ext
 
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
