@@ -91,6 +91,19 @@ article .share .gplus:hover {
     .page-header{
         margin-right: 70px;
     }
+    .content {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+}
+
+.content {
+    max-width: 800px;
 }
 
 article{
@@ -109,7 +122,7 @@ article{
 }
 
 article {
-	padding: 0 5% 0;
+	padding: 0;
 }
 
 article.home div a, article.home pre a { color: #2c3e50; }
