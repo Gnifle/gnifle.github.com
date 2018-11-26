@@ -9,7 +9,7 @@ comments: true
 
 Finally! I took some time out, to do some of my own hobby projects, that I
 promised myself I would get done one day. I had a bunch of sparetime going
-on a family trip by train, an with a bit of preliminary looking into how big
+on a family trip by train, and with a bit of preliminary looking into how big
 of a task this should be, I stuck some
 [_Darker Days_](https://open.spotify.com/album/5K2iwLVDEjF19yoW5MkRl6) by
 [Peter, Bjorn and John](https://open.spotify.com/artist/6u11Qbko2N2hP4lTBYjX86)
@@ -47,12 +47,12 @@ It took me 3 minutes of reading to sell me on
 these before? Intrigued, I kept reading until I figured I had the grasp of the
 basic idea. Seemed super simple to get started:
 
-1. Create new GitHub repo named `gnifle.github.io`. **Childs play.**
+1. Create a new GitHub repo named `gnifle.github.io`. **Childs play.**
 2. Clone the repo **Programming is so easy, dude**
 3. Start writing articles. **Great, easy-peasy, let's go!**
 
 That's it in short. I was online on
-[blog.gnifle.com](http://blog.gnifle.com). Well, that was simple.
+[gnifle.github.io](http://gnifle.github.io). Well, that was simple.
 
 ## A generated static blog of... Nothing
 
@@ -98,15 +98,15 @@ can just activate a theme and thus deactivate another, and you're set on a new
 design. Since Jekyll uses somewhat hardcoded variables, installing a theme isn't
 just plug-and-play. I mean, it's somewhat close, but the problem comes if you
 have existing content, where the files needs migration to some degree. For me,
-well, I got luck and could just pull a theme and replace my current installation
-before adding any content. I ended up with a theme called
+well, I got lucky and could just pull a theme and replace my current
+installation before adding any content. I ended up with a theme called
 [*dbyll*](https://github.com/dbtek/dbyll).
 
 And there we go, I finally have a functional statically generated blog! Swell!
 
-## Appying a custom domain
+## Applying a custom domain
 
-Seriously, big kudos to GitHub and their pages system. As simple a URL as
+Seriously, big kudos to GitHub and their Pages system. As simple a URL as
 [http://gnifle.github.io](http://gnifle.github.io) is pretty awesome out of the
 box. But seeing as I already own my wn domain, [gnifle.com](http://gnifle.com),
 I'd really like to use that.
